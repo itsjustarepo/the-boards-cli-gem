@@ -1,8 +1,6 @@
 # HotSongs
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/hot_songs`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This is HotSongs. The Ruby Cli Gem that pulls in the top songs of the US Billboard charts.
 
 ## Installation
 
@@ -32,7 +30,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hot_songs.
+Bug reports and pull requests are welcome on GitHub at https://github.com/thisistydell/hot_songs.
 
 
 ## License
