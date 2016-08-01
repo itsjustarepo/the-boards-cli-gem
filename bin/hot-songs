@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 
-require "bundler/setup"
-require "hot_songs"
+require_relative '../lib/hot_songs'
 
 HotSongs::CLI.new.call
