@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = HotSongs::VERSION
   spec.authors       = ["ThisIsTyDell"]
   spec.email         = ["milleb94@gmail.com"]
-  spec.executables   << 'hot-songs'
+  spec.executables   = ['hot-songs']
   spec.summary       = "The Hottest Songs of This Week"
   spec.description   = "A simple gem that pulls the hottest songs from the Billboard Charts Hot 100"
   spec.homepage      = "https://github.com/ThisIsTyDell/hot-songs-cli-gem"
