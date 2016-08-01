@@ -17,9 +17,5 @@ class HotSongs::Songs
       songs << song
     end
     songs
-
-    #genre = self.new
-    #genre.name = doc.search("h2").text
-    #genre
   end
 end
