@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require_relative '../lib/hot_songs'
+require_relative '../lib/the_boards'
 
 HotSongs::CLI.new.call
