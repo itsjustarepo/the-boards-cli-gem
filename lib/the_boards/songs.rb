@@ -1,7 +1,7 @@
 class TheBoards::Songs
   attr_accessor :name, :artist, :rank, :prev_rank
   def self.today
-    # Scrape Billboard and then return genres based on that data
+    # Scrape Billboard and then return list of songs based on that data
     self.scrape_billboard
   end
 

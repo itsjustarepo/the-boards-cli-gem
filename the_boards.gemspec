@@ -5,7 +5,7 @@ require 'the_boards/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "the_boards"
-  spec.version       = HotSongs::VERSION
+  spec.version       = TheBoards::VERSION
   spec.authors       = ["ThisIsTyDell"]
   spec.email         = ["milleb94@gmail.com"]
   spec.executables   = ["the_boards"]

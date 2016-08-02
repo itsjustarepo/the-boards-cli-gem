@@ -1,15 +1,15 @@
 class TheBoards::CLI
 
   def call
-    list_genres
+    list_songs
     menu
     goodbye
   end
 
-  def list_genres
+  def list_songs
     puts "Today's Hottest Songs:"
-    @genres = TheBoards::Songs.today
-    @genres.each.with_index(1) do |genre, i|
+    @songs = TheBoards::Songs.today
+    @songs.each.with_index(1) do |genre, i|
       puts "#{i}. #{genre.name}"
     end
 
@@ -22,11 +22,11 @@ class TheBoards::CLI
       input = gets.strip.downcase
 
       if input.to_i > 0
-        the_genre = @genres[input.to_i-1]
-        puts "'#{the_genre.name}' by #{the_genre.artist} is currently ##{the_genre.rank} on the charts."
-        puts "#{the_genre.prev_rank}"
+        the_song = @songs[input.to_i-1]
+        puts "'#{the_song.name}' by #{the_song.artist} is currently ##{the_song.rank} on the charts."
+        puts "#{the_song.prev_rank}"
       elsif input == "list"
-        list_genres
+        list_songs
       else
         puts "Not sure what you want, type list or exit."
       end
