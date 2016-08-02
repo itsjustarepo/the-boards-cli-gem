@@ -2,4 +2,4 @@
 
 require_relative '../lib/the_boards'
 
-HotSongs::CLI.new.call
+TheBoards::CLI.new.call

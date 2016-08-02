@@ -1,4 +1,4 @@
-class HotSongs::CLI
+class TheBoards::CLI
 
   def call
     list_genres
@@ -8,7 +8,7 @@ class HotSongs::CLI
 
   def list_genres
     puts "Today's Hottest Songs:"
-    @genres = HotSongs::Songs.today
+    @genres = TheBoards::Songs.today
     @genres.each.with_index(1) do |genre, i|
       puts "#{i}. #{genre.name}"
     end

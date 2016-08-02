@@ -1,4 +1,4 @@
-class HotSongs::Songs
+class TheBoards::Songs
   attr_accessor :name, :artist, :rank, :prev_rank
   def self.today
     # Scrape Billboard and then return genres based on that data
