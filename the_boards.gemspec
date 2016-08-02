@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'the_boards/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "hot_songs"
+  spec.name          = "the_boards"
   spec.version       = HotSongs::VERSION
   spec.authors       = ["ThisIsTyDell"]
   spec.email         = ["milleb94@gmail.com"]

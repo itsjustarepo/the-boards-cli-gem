@@ -1,6 +1,6 @@
-# HotSongs
+# TheBoards
 
-This is HotSongs. The Ruby Cli Gem that pulls in the top songs of the US Billboard charts.
+This is TheBoards. The Ruby Cli Gem that pulls in the top songs of the US Billboard charts.
 
 ## Installation
 
@@ -30,7 +30,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/thisistydell/hot-songs-cli-gem.
+Bug reports and pull requests are welcome on GitHub at https://github.com/thisistydell/the-boards-cli-gem.
 
 
 ## License
