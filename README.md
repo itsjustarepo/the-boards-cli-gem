@@ -7,7 +7,7 @@ This is TheBoards. The Ruby Cli Gem that pulls in the top songs of the US Billbo
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'hot_songs'
+gem 'the_boards'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install hot_songs
+    $ gem install the_boards
 
 ## Usage
 
